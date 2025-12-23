@@ -1,0 +1,29 @@
+@import 'normalize.css';
+
+@font-face {
+  font-family: 'Halvar Breitschrift';
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/Halvar Breitschrift-Regular-Desktop.otf") format("opentype"); /* Для .otf используем format("opentype") */
+}
+
+@font-face {
+  font-family: 'Halvar Breitschrift';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Halvar Breitschrift-Light-Desktop.otf") format("opentype"); /* Другой вариант шрифта */
+}
+
+@font-face {
+  font-family: 'Halvar Breitschrift';
+  font-style: normal;
+  font-weight: 300;
+  src: url("./assets/fonts/Halvar Breitschrift-Thin-Desktop.otf") format("opentype");
+}
+
+html,
+body {
+  font-family: 'Halvar Breitschrift', sans-serif; /* Указываем шрифт Halvar Breitschrift как основной */
+  width: 100%;
+  height: 100%;
+}
