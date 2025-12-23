@@ -21,7 +21,7 @@ export const Header: React.FC = () => {
       </nav>
       {/* ============ Contact Info ============ */}
       <div className='contact-info'>
-        <span className='phone-number'>8 800 70-12-84</span>
+        <a href='#' className='phone-number'>8 800 70-12-84</a>
         <button className='header-btn'>Оставить заявку</button>
       </div>
     </header>
